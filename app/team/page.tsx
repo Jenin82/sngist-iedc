@@ -5,13 +5,16 @@ import { MdOutlineDateRange } from "react-icons/md";
 
 const page = () => {
     return (
-        <div className="flex flex-wrap justify-center pt-20 px-6 gap-8">
+        <div className="mt-20 md:px-[2rem] lg:px-[15rem]">
+            <p className="font-bold text-3xl flex justify-center mb-10 ">EXECUTIVE COMMITTE</p>
+        <div className="flex flex-wrap justify-center  px-6 md:gap-6 lg:gap-8">
             {data.execom.map((member) => (
                 <ImageHolder
                     src={member.image}
                     alt={member.name}
                     role={member.designation}
                     key={member.name}
+                    linkedin={member.linkedin}
                 />
             ))}
             <div className="collapse collapse-arrow bg-base-200 mb-2">
@@ -21,7 +24,20 @@ const page = () => {
                         <MdOutlineDateRange /> 2022-23
                     </div>
                 </div>
-                <div className="collapse-content">{/* <p>hello</p> */}</div>
+                <div className="collapse-content ">
+        <div className="flex flex-wrap justify-center pt-4 px-6 md:gap-6 lg:gap-8">
+                    
+                    {data.execom.map((member) => (
+                <ImageHolder
+                    src={member.image}
+                    alt={member.name}
+                    role={member.designation}
+                    key={member.name}
+                    linkedin={member.linkedin}
+                />
+            ))}
+            </div>
+            </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200 ">
                 <input type="radio" name="my-accordion-2" />
@@ -32,6 +48,7 @@ const page = () => {
                 </div>
                 <div className="collapse-content">{/* <p>hello</p> */}</div>
             </div>
+        </div>
         </div>
     );
 };
