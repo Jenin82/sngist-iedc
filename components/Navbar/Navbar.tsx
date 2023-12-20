@@ -1,49 +1,66 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 fixed top-0 z-50 shadow">
             <div className="navbar-start">
-                <div className="dropdown">
-                    <div
-                        tabIndex={0}
-                        role="button"
-                        className="btn btn-ghost btn-circle"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
+				<div>
+					<Image src="/logo2.svg" width={50} height={50} alt="logo"/>
+				</div>
+                <div className="drawer hidden">
+                    <input
+                        id="my-drawer"
+                        type="checkbox"
+                        className="drawer-toggle"
+                    />
+                    <div className="drawer-content">
+                        {/* Page content here */}
+                        <label
+                            htmlFor="my-drawer"
+                            className="drawer-button btn btn-ghost btn-circle"
                         >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M4 6h16M4 12h16M4 18h7"
-                            />
-                        </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M4 6h16M4 12h16M4 18h7"
+                                />
+                            </svg>
+                        </label>
                     </div>
-                    <ul
-                        tabIndex={0}
-                        className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-                    >
-                        <li>
-                            <Link href="/">Homepage</Link>
-                        </li>
-                        <li>
-                            <Link href="/dashboard">Dashboard</Link>
-                        </li>
-                        <li>
-                            <a>About</a>
-                        </li>
-                    </ul>
+                    <div className="drawer-side">
+                        <label
+                            htmlFor="my-drawer"
+                            aria-label="close sidebar"
+                            className="drawer-overlay"
+                        ></label>
+                        <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                            {/* Sidebar content here */}
+                            <li>
+                                <a>Sidebar Item 1</a>
+                            </li>
+                            <li>
+                                <a>Sidebar Item 2</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
             <div className="navbar-center">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <div className="hidden md:flex">
+                    <Link className="btn btn-ghost text-[1rem]" href={"/"}>Home</Link>
+                    <Link className="btn btn-ghost text-[1rem]" href={"/dashboard"}>Dashboard</Link>
+                </div>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
