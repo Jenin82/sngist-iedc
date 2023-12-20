@@ -3,29 +3,34 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className="hero min-h-screen overflow-x-hidden">
-            <div className="hero-content flex-col md:flex-row-reverse">
+            <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-0">
                 <Image
                     src="/hero.svg"
-                    width={800}
-                    height={800}
-                    className="rounded-lg max-w-[300px] md:max-w-full"
+                    width={700}
+                    height={700}
+                    className="max-w-[300px] md:max-w-full"
                     alt="hero"
                 />
+				
                 <div>
-                    <div className="flex items-center gap-5">
-                        <Image
-                            src="/logo2.svg"
-                            width={150}
-                            height={150}
-                            alt="logo"
-                            className="m-[-1rem]"
-                        />
-                        <h1 className="text-5xl font-bold">SNGIST IEDC</h1>
+                    <Image
+                        src="/logo.svg"
+                        width={300}
+                        height={300}
+                        alt="IEDC SNGIST logo"
+                        className="max-w-[300px] md:max-w-full pb-8"
+                    />
+                    <div className="text-5xl font-extrabold ...">
+                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500">
+                            SNGIST IEDC
+                        </span>
                     </div>
-                    <p className="py-6">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                        assumenda excepturi exercitationem quasi. In deleniti
-                        eaque aut repudiandae et a id nisi.
+                    <p className="py-10 md:py-6 text-justify">
+                        <span className="font-bold">Grow Your Ideas: </span> A
+                        Place to Create, Connect, and Launch Your
+                        Entrepreneurial Dreams into Success. Unleash Your
+                        Potential with Expert Guidance and a Thriving Community
+                        of Innovators.
                     </p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
