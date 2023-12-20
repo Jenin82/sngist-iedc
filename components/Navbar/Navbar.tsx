@@ -27,6 +27,9 @@ const Navbar = () => {
                     <Link className="btn btn-ghost text-[1rem]" href={"/team"}>
                         Team
                     </Link>
+                    <Link className="btn btn-ghost text-[1rem]" href={"/news"}>
+                        News
+                    </Link>
                 </div>
             </div>
             <div className="navbar-end">
