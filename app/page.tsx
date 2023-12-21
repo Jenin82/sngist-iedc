@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className="hero min-h-screen overflow-x-hidden">
-            <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-0">
+            <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-2 lg:gap-0 md:px-10 lg:px-0">
                 <Image
                     src="/hero.svg"
                     width={700}
                     height={700}
-                    className="max-w-[300px] md:max-w-full"
+                    className="max-w-[300px] md:max-w-[50%] lg:max-w-full"
                     alt="hero"
                 />
 				
@@ -32,7 +32,7 @@ export default function Home() {
                         Potential with Expert Guidance and a Thriving Community
                         of Innovators.
                     </p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn btn-primary">Join us</button>
                 </div>
             </div>
         </main>

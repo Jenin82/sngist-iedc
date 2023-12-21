@@ -21,14 +21,23 @@ const Navbar = () => {
 
             <div className="navbar-center">
                 <div className="hidden md:flex">
-                    <Link className="btn btn-ghost text-[1rem]" href={"/"}>
-                        Home
+                    <Link className="btn btn-ghost text-[1rem]" href={"/about"}>
+                        About
                     </Link>
-                    <Link className="btn btn-ghost text-[1rem]" href={"/team"}>
-                        Team
+                    <Link className="btn btn-ghost text-[1rem]" href={"/execom"}>
+                        Execom
+                    </Link>
+                    <Link className="btn btn-ghost text-[1rem]" href={"/governance"}>
+                        Governance
                     </Link>
                     <Link className="btn btn-ghost text-[1rem]" href={"/news"}>
                         News
+                    </Link>
+                    <Link className="btn btn-ghost text-[1rem]" href={"/events"}>
+                        Events
+                    </Link>
+                    <Link className="btn btn-ghost text-[1rem]" href={"/achievements"}>
+                        Achievements
                     </Link>
                 </div>
             </div>
@@ -103,10 +112,22 @@ const Navbar = () => {
                                     <Link href={"/"}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href={"/team"}>Team</Link>
+                                    <Link href={"/about"}>About</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/execom"}>Execom</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/governance"}>Governance</Link>
                                 </li>
                                 <li>
                                     <Link href={"/news"}>News</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/events"}>Events</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/achievements"}>Achievements</Link>
                                 </li>
                             </ul>
                         </div>

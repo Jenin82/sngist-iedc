@@ -1,11 +1,11 @@
-import ImageHolder from "@/components/ImageHolder/ImageHolder";
+import Wave from "@/components/Wave/Wave";
 import React from "react";
 
 const page = () => {
     return (
         <div className="px-6 pt-20">
             <div>
-                <ImageHolder src={"https://www.iedcmec.in/static/media/jacob.3cb8999e.jpg"} linkedin={""} />
+				<Wave />
             </div>
         </div>
     );
