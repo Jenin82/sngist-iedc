@@ -5,7 +5,7 @@ const page = () => {
     return (
         <div className="px-6 pt-20">
             <div>
-                <ImageHolder src={"https://www.iedcmec.in/static/media/jacob.3cb8999e.jpg"} />
+                <ImageHolder src={"https://www.iedcmec.in/static/media/jacob.3cb8999e.jpg"} linkedin={""} />
             </div>
         </div>
     );

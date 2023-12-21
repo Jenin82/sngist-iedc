@@ -22,7 +22,7 @@ const ImageHolder = (props: Props) => {
                     height: props.height || 200,
                 }}
             >
-                <img
+                <Image
                     src={props.src}
                     width={props.width || 200}
                     height={props.height || 200}
