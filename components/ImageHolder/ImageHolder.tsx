@@ -1,13 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./ImageHolder.module.css";
+import Link from "next/link";
 
 type Props = {
     src: string;
+    linkedin: string;
     alt?: string;
     width?: number;
     height?: number;
-    linkedin?: string;
     role?: string;
 };
 
@@ -15,7 +16,7 @@ const ImageHolder = (props: Props) => {
     return (
         <div className="flex flex-col justify-center max-w-fit">
             <div
-                className={styles.imageContainer}
+                className={`${styles.imageContainer} md:mt-[-2rem]`}
                 style={{
                     width: props.width || 200,
                     height: props.height || 200,
@@ -29,11 +30,11 @@ const ImageHolder = (props: Props) => {
                     className={styles.image}
                 />
             </div>
-            <div className="flex flex-col justify-center items-center gap-1 pt-3">
+            <div className="flex flex-col justify-center items-center gap-1 pt-7">
                 <h2 className="text-xl font-bold">{props.alt}</h2>
                 <h3>{props.role}</h3>
             </div>
-            <div className={styles.linkedin} style={{left: (props.width || 200)/2 - 25 }}>
+            <Link className={styles.linkedin} style={{ left: (props.width || 200) / 2 - 25 }} href={props.linkedin} target="_blank">
                 <Image
                     src="/linkedin.svg"
                     width={50}
@@ -41,7 +42,7 @@ const ImageHolder = (props: Props) => {
                     alt="linkedin logo"
                     className={styles.logo}
                 />
-            </div>
+            </Link>
         </div>
     );
 };
