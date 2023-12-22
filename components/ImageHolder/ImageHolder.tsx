@@ -16,7 +16,7 @@ const ImageHolder = (props: Props) => {
     return (
         <div className="flex flex-col justify-center max-w-fit">
             <div
-                className={`${styles.imageContainer} md:mt-[-2rem]`}
+                className={`${styles.imageContainer} md:mt-[-3rem]`}
                 style={{
                     width: props.width || 200,
                     height: props.height || 200,
@@ -30,7 +30,7 @@ const ImageHolder = (props: Props) => {
                     className={styles.image}
                 />
             </div>
-            <div className="flex flex-col justify-center items-center gap-1 pt-7">
+            <div className="flex flex-col mb-auto items-center gap-1 pt-7 max-w-[200px] text-center">
                 <h2 className="text-xl font-bold">{props.alt}</h2>
                 <h3>{props.role}</h3>
             </div>
