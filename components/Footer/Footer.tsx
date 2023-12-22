@@ -16,7 +16,6 @@ const Footer = () => {
                 <Link
                     href="mailto:sngtiedc@gmail.com"
                     className="underline underline-offset-4 hover:text-primary"
-					target="_blank"
                 >
                     sngtiedc@gmail.com
                 </Link>
