@@ -6,7 +6,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 const page = () => {
     return (
         <div className="mt-20 md:px-[2rem] lg:px-[15rem]">
-            <p className="font-bold text-3xl flex justify-center mb-10 ">EXECUTIVE COMMITTE</p>
+            <p className="font-bold text-3xl flex justify-center pt-5 mb-20 ">EXECOM</p>
         <div className="flex flex-wrap justify-center  px-6 md:gap-6 lg:gap-8">
             {data.execom.map((member) => (
                 <ImageHolder
