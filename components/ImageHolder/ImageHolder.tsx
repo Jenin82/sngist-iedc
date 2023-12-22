@@ -30,7 +30,7 @@ const ImageHolder = (props: Props) => {
                     className={styles.image}
                 />
             </div>
-            <div className="flex flex-col mb-auto items-center gap-1 pt-7 max-w-[200px] text-center">
+            <div className="flex flex-col mb-auto items-center gap-1 pt-7 max-w-[200px] text-center min-h-[100px]">
                 <h2 className="text-lg font-bold">{props.alt}</h2>
                 <h3 className="text-sm">{props.role}</h3>
             </div>

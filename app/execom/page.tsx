@@ -6,7 +6,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 const page = () => {
     return (
         <div className="mt-20 md:px-[2rem] lg:px-48">
-            <p className="font-bold text-4xl flex justify-center pt-5 mb-20 ">
+            <p className="font-bold text-4xl flex justify-center pt-5 pb-4 mb-20 ">
                 EXECOM
             </p>
             <div className="flex flex-wrap justify-center px-6 md:gap-6 lg:gap-8">
