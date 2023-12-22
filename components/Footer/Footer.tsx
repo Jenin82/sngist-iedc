@@ -22,7 +22,7 @@ const Footer = () => {
             </aside>
             <nav>
                 <div className="grid grid-flow-col gap-4 my-[-1rem]">
-                    <Link href="/">
+                    <Link href="https://www.instagram.com/iedc_sngist/" target="_blank">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             height="26"
