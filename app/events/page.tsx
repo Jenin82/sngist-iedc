@@ -4,7 +4,8 @@ import data from "./data.json";
 
 const page = () => {
     return (
-        <div className="mt-20 px-20">
+        <div className="mt-20 px-20 pb-16">
+			<h1 className="text-4xl font-bold text-center py-6 mb-4">Events</h1>
             <div className="flex flex-wrap gap-10 justify-center">
                 {data.events.map((event) => (
                     <EventCard

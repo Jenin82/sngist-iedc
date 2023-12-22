@@ -4,6 +4,7 @@ const page = () => {
     return (
         <div className="mt-24 px-10 min-h-[]">
             <h1 className="text-4xl font-bold text-center">GOVERNING BODY</h1>
+			<div></div>
         </div>
     );
 };
