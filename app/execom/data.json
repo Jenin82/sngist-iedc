@@ -8,46 +8,63 @@
 		},
 		{
 			"name": "Jenin Joseph",
-			"designation": "Cheif Executive Officer",
+			"designation": "IEDC LEAD",
+			"image":"https://avatars.githubusercontent.com/u/84625875?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "Diya",
+			"designation": "WOMEN LEAD",
 			"image":"https://avatars.githubusercontent.com/u/84625875?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
 			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"designation": "QUALITY AND OPERATIONS LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Rithik Rajesh ",
+			"designation": "FINANACE LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Althaf Hussian M U",
+			"designation": "CREATIVE AND INNOVATION LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Dhipin M K",
+			"designation": "TECHNOLOGY LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "V Gokul Kannah",
+			"designation": "BRANDING AND MARKETING LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Sachin C S",
+			"designation": "COMMUNITY LEAD",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "Sneha K",
+			"designation": "WOMEN INNOVATION  LEAD",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "Hebron Paul",
+			"designation": "IPR & RESEARCH LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		}
-
 	]
 }
