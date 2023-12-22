@@ -1,0 +1,39 @@
+{
+    "events": [
+        {
+            "name": "edwin",
+            "description": "sdfbfbsfbdf",
+            "date": "2023-12-22"
+        },
+        {
+            "name": "Tech Talk",
+            "description": "Engage in discussions about the latest in technology",
+            "date": "2023-12-23"
+        },
+        {
+            "name": "Startup Networking",
+            "description": "Connect with fellow entrepreneurs and investors",
+            "date": "2023-12-24"
+        },
+        {
+            "name": "Programming Bootcamp",
+            "description": "Intensive coding practice for all skill levels",
+            "date": "2023-12-25"
+        },
+        {
+            "name": "Data Analytics Workshop",
+            "description": "Learn the essentials of data analytics",
+            "date": "2023-12-26"
+        },
+        {
+            "name": "UI/UX Design Forum",
+            "description": "Explore the principles of user interface and experience design",
+            "date": "2023-12-27"
+        },
+        {
+            "name": "Mobile App Development Summit",
+            "description": "Discover the latest trends in mobile app development",
+            "date": "2023-12-28"
+        }
+    ]
+}
