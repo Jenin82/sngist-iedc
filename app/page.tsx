@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className="hero min-h-screen overflow-x-hidden">
-            <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-2 lg:gap-0 md:px-10 lg:px-0">
+            <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-2 lg:gap-0 px-6 md:px-10 lg:px-0">
                 <Image
                     src="/hero.svg"
                     width={700}

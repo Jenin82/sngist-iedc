@@ -24,19 +24,31 @@ const Navbar = () => {
                     <Link className="btn btn-ghost text-[1rem]" href={"/about"}>
                         About
                     </Link>
-                    <Link className="btn btn-ghost text-[1rem]" href={"/execom"}>
+                    <Link
+                        className="btn btn-ghost text-[1rem]"
+                        href={"/execom"}
+                    >
                         Execom
                     </Link>
-                    <Link className="btn btn-ghost text-[1rem]" href={"/governance"}>
+                    <Link
+                        className="btn btn-ghost text-[1rem]"
+                        href={"/governance"}
+                    >
                         Governance
                     </Link>
                     <Link className="btn btn-ghost text-[1rem]" href={"/news"}>
                         News
                     </Link>
-                    <Link className="btn btn-ghost text-[1rem]" href={"/events"}>
+                    <Link
+                        className="btn btn-ghost text-[1rem]"
+                        href={"/events"}
+                    >
                         Events
                     </Link>
-                    <Link className="btn btn-ghost text-[1rem]" href={"/achievements"}>
+                    <Link
+                        className="btn btn-ghost text-[1rem]"
+                        href={"/achievements"}
+                    >
                         Achievements
                     </Link>
                 </div>
@@ -72,7 +84,7 @@ const Navbar = () => {
                 </button>
 
                 <button className="md:hidden">
-                    <div className="drawer drawer-end">
+                    <div className="drawer">
                         <input
                             id="my-drawer-4"
                             type="checkbox"
@@ -106,29 +118,44 @@ const Navbar = () => {
                                 aria-label="close sidebar"
                                 className="drawer-overlay"
                             ></label>
-                            <ul className="menu p-4 w-60 min-h-full bg-base-200 text-base-content font-bold	">
+                            <ul className="menu p-4 w-60 min-h-full bg-base-200 text-base-content font-bold">
                                 {/* Sidebar content here */}
-                                <li>
-                                    <Link href={"/"}>Home</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/about"}>About</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/execom"}>Execom</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/governance"}>Governance</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/news"}>News</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/events"}>Events</Link>
-                                </li>
-                                <li>
-                                    <Link href={"/achievements"}>Achievements</Link>
-                                </li>
+                                <h1 className="text-xl py-3">SNGIST IEDC</h1>
+                                <Image
+                                    className="mx-auto pb-4"
+                                    src={"/logo.svg"}
+                                    alt={"SNGIST IEDC logo"}
+                                    width={120}
+                                    height={50}
+                                ></Image>
+                                <hr className="pb-3" />
+                                <div className="flex flex-col justify-center items-center">
+                                    <li>
+                                        <Link href={"/"}>Home</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/about"}>About</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/execom"}>Execom</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/governance"}>
+                                            Governance
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/news"}>News</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/events"}>Events</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={"/achievements"}>
+                                            Achievements
+                                        </Link>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                     </div>
