@@ -1,50 +1,62 @@
 {
 	"execom": [
 		{
-			"name": "Pramod K",
-			"designation": "Nodal Officer",
-			"image": "https://avatars.githubusercontent.com/u/10183073?v=4",
-			"linkedin": "https://www.linkedin.com/in/alan-anil/"
-		},
-		{
 			"name": "Jenin Joseph",
 			"designation": "Cheif Executive Officer",
-			"image":"https://avatars.githubusercontent.com/u/84625875?v=4",
-			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+			"image":"https://i.imgur.com/p9X4lvc.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "Diya",
+			"designation": "Women Lead",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
 		},
 		{
 			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"designation": "Quality and Operations Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Rithik Rajesh",
+			"designation": "Finance Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Althaf Hussain M U",
+			"designation": "Creative and Innovation Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Dhipin M K",
+			"designation": "Technology Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "V Gokul Kannah",
+			"designation": "Branding and Marketing Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
-			"name": "Alan K Anil",
-			"designation": "Cheif Quality Officer",
+			"name": "Sachin C S",
+			"designation": "Community Lead",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "Sneha K",
+			"designation": "Women Innovation Lead",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "Hebron Paul",
+			"designation": "IPR & Research Lead",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		}
