@@ -3,7 +3,7 @@ import React from "react";
 const about = () => {
     return (
         <div className="mt-20 min-h-screen px-8 md:px-20 lg:px-[15rem]">
-            <div className="text-4xl font-bold pt-2 text-center">About</div>
+            <div className="text-4xl font-bold pt-2 text-center">ABOUT</div>
             <p className="text-justify pt-4">
                 Innovation and Entrepreneurship Development Cell (IEDC-SNGIST),
                 earlier known as EDC@SNGIST, was established in the year of
