@@ -1,11 +1,10 @@
-import Wave from "@/components/Wave/Wave";
 import React from "react";
 
 const page = () => {
     return (
         <div className="px-6 pt-20">
             <div>
-				<Wave />
+                <h1 className="text-4xl font-bold">News</h1>
             </div>
         </div>
     );
