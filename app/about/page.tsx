@@ -2,7 +2,7 @@ import React from "react";
 
 const about = () => {
     return (
-        <div className="mt-20 min-h-screen px-8">
+        <div className="mt-20 min-h-screen px-8 md:px-20 lg:px-[15rem]">
             <div className="text-4xl font-bold pt-2 text-center">About</div>
             <p className="text-justify pt-4">
                 Innovation and Entrepreneurship Development Cell (IEDC-SNGIST),
@@ -31,7 +31,7 @@ const about = () => {
                 professional leaders for serving the society.
             </p>
             <div className="text-2xl font-bold pt-6">Mission</div>
-            <ul className="text-justify pt-2 list-disc px-5">
+            <ul className="text-justify pt-2 list-disc pl-4">
                 <li>
                     Ensuring students delight by meeting their aspirations
                     through blended learning, corporate mentoring, professional
@@ -53,7 +53,7 @@ const about = () => {
                 </li>
             </ul>
             <div className="text-2xl font-bold pt-6">Objectives of IEDC</div>
-            <ul className="text-justify pt-2 list-disc px-5">
+            <ul className="text-justify pt-2 list-disc pl-4">
                 <li>
                     To inculcate a culture of innovation driven entrepreneurship
                     through student projects.
