@@ -1,93 +1,76 @@
 {
-  "events": [
-    {
-      "name": "Hackathon",
-      "description": "Hackathon yhhyuy yuhyujyu th6",
-      "image": "https://i.imgur.com/ysBgyn0.jpeg",
-      "isOver": true,
-      "link": "https://i.imgur.com/",
-      "isNew": true
-    },
-    {
-      "name": "Tech Conference",
-      "description": "Explore the latest in technology",
-      "image": "https://i.imgur.com/example1.jpeg",
-      "isOver": false,
-      "link": "https://i.imgur.com/",
-
-      "isNew": false
-    },
-    {
-      "name": "Startup Pitch",
-      "description": "Showcasing innovative startup ideas",
-      "image": "https://i.imgur.com/example2.jpeg",
-      "isOver": true,
-      "link": "https://i.imgur.com/",
-
-      "isNew": false
-    },
-    {
-      "name": "Code Workshop",
-      "description": "Hands-on coding experience",
-      "image": "https://i.imgur.com/example3.jpeg",
-      "isOver": false,
-      "link": "/",
-
-      "isNew": true
-    },
-    {
-      "name": "Data Science Summit",
-      "description": "Exploring trends in data science",
-      "image": "https://i.imgur.com/example4.jpeg",
-      "isOver": false,
-      "link": "https://i.imgur.com/",
-
-      "isNew": true
-    },
-    {
-      "name": "Design Meetup",
-      "description": "Discussing the art of design",
-      "image": "https://i.imgur.com/example5.jpeg",
-      "isOver": true,
-      "link": "https://i.imgur.com/",
-
-      "isNew": false
-    },
-    {
-      "name": "Cybersecurity Symposium",
-      "description": "Addressing the latest in cybersecurity",
-      "image": "https://i.imgur.com/example6.jpeg",
-      "isOver": false,
-      "link": "https://i.imgur.com/",
-
-      "isNew": false
-    },
-    {
-      "name": "Robotics Expo",
-      "description": "Showcasing advancements in robotics",
-      "image": "https://i.imgur.com/example7.jpeg",
-      "isOver": true,
-      "link": "https://i.imgur.com/",
-
-      "isNew": true
-    },
-    {
-      "name": "AI Workshop",
-      "description": "Dive into the world of artificial intelligence",
-      "image": "https://i.imgur.com/example8.jpeg",
-      "isOver": false,
-      "link": "https://i.imgur.com/",
-
-      "isNew": false
-    },
-    {
-      "name": "Blockchain Summit",
-      "description": "Exploring the future of blockchain technology",
-      "image": "https://i.imgur.com/example9.jpeg",
-      "isOver": true,
-      "link": "https://i.imgur.com/",
-
-      "isNew": true
-    }
-  ]
+    "events": [
+        {
+            "name": "Tech Conference",
+            "description": "Explore the latest in technology",
+            "image": "https://i.imgur.com/ZM3Mobu.jpeg",
+            "isOver": false,
+            "link": "https://i.imgur.com/",
+            "isNew": true
+        },
+        {
+            "name": "Startup Pitch",
+            "description": "Showcasing innovative startup ideas",
+            "image": "https://i.imgur.com/YxhlIf0.jpeg",
+            "isOver": false,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "Code Workshop",
+            "description": "Hands-on coding experience",
+            "image": "https://i.imgur.com/YnPykje.jpeg",
+            "isOver": true,
+            "link": "/",
+            "isNew": false
+        },
+        {
+            "name": "Data Science Summit",
+            "description": "Exploring trends in data science",
+            "image": "https://i.imgur.com/Btgnflk_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": false,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "Design Meetup",
+            "description": "Discussing the art of design",
+            "image": "https://i.imgur.com/4Ldxgbt_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": true,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "Cybersecurity Symposium",
+            "description": "Addressing the latest in cybersecurity",
+            "image": "https://i.imgur.com/uOvUx8V_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": true,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "Robotics Expo",
+            "description": "Showcasing advancements in robotics",
+            "image": "https://i.imgur.com/OUTebAy_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": true,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "AI Workshop",
+            "description": "Dive into the world of artificial intelligence",
+            "image": "https://i.imgur.com/V2603uG_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": true,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        },
+        {
+            "name": "Blockchain Summit",
+            "description": "Exploring the future of blockchain technology",
+            "image": "https://i.imgur.com/L4Pl9bs_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+            "isOver": true,
+            "link": "https://i.imgur.com/",
+            "isNew": false
+        }
+    ]
 }
