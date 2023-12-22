@@ -11,7 +11,7 @@ export default function Home() {
                     className="max-w-[300px] md:max-w-[50%] lg:max-w-full"
                     alt="hero"
                 />
-				
+
                 <div>
                     <Image
                         src="/logo.svg"
@@ -20,8 +20,8 @@ export default function Home() {
                         alt="IEDC SNGIST logo"
                         className="max-w-[300px] md:max-w-full pb-8"
                     />
-                    <div className="text-5xl font-extrabold ...">
-                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500">
+                    <div className="text-8xl font-extrabold">
+                        <span className=" bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500">
                             SNGIST IEDC
                         </span>
                     </div>

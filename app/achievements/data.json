@@ -1,11 +1,6 @@
 {
     "events": [
         {
-            "name": "edwin",
-            "description": "sdfbfbsfbdf",
-            "date": "2023-12-22"
-        },
-        {
             "name": "Tech Talk",
             "description": "Engage in discussions about the latest in technology",
             "date": "2023-12-23"

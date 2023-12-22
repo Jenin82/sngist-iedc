@@ -1,52 +1,42 @@
 {
-  "principal": {
-    "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-    "alt": "fdsdagsgs",
-    "role": "Principal"
-  },
+    "principal": {
+        "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+        "alt": "Dr. Sajini Thomas Mathayi",
+        "role": "PRINCIPAL"
+    },
 
-  "nodalOfficers": [
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    }
-  ],
-  "teachers": [
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
-      "alt": "fdsdagsgs",
-      "role": "Principal"
-    }
-  ]
+    "nodalOfficers": [
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "Prof. Pramod K",
+            "role": "NODAL OFFICER"
+        },
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "Prof. Test Name",
+            "role": "NODAL OFFICER"
+        }
+    ],
+    "teachers": [
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "fdsdagsgs",
+            "role": "FACULTY COORDINATOR"
+        },
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "fdsdagsgs",
+            "role": "FACULTY COORDINATOR"
+        },
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "fdsdagsgs",
+            "role": "FACULTY COORDINATOR"
+        },
+        {
+            "src": "https://avatars.githubusercontent.com/u/108272717?v=4",
+            "alt": "fdsdagsgs",
+            "role": "FACULTY COORDINATOR"
+        }
+    ]
 }
