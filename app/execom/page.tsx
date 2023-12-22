@@ -27,7 +27,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className="collapse-content ">
-                        <div className="flex flex-wrap justify-center pt-4 px-6 md:gap-6 lg:gap-8">
+                        <div className="flex flex-wrap justify-center pt-16 px-6 md:gap-6 lg:gap-8">
                             {data.secondexecom.map((member) => (
                                 <ImageHolder
                                     src={member.image}

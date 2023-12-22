@@ -31,8 +31,8 @@ const ImageHolder = (props: Props) => {
                 />
             </div>
             <div className="flex flex-col mb-auto items-center gap-1 pt-7 max-w-[200px] text-center">
-                <h2 className="text-xl font-bold">{props.alt}</h2>
-                <h3>{props.role}</h3>
+                <h2 className="text-lg font-bold">{props.alt}</h2>
+                <h3 className="text-sm">{props.role}</h3>
             </div>
             <Link className={styles.linkedin} style={{ left: (props.width || 200) / 2 - 25 }} href={props.linkedin} target="_blank">
                 <Image
