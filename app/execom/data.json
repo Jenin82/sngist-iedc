@@ -1,9 +1,21 @@
 {
 	"execom": [
 		{
-			"name": "Pramod K",
-			"designation": "Nodal Officer",
-			"image": "https://avatars.githubusercontent.com/u/10183073?v=4",
+			"name": "Jenin Joseph",
+			"designation": "Cheif Executive Officer",
+			"image":"https://i.imgur.com/p9X4lvc.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "Diya",
+			"designation": "Women Lead",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "Alan K Anil",
+			"designation": "Quality and Operations Lead",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
 		{
