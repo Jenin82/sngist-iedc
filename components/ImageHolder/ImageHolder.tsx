@@ -5,11 +5,11 @@ import Link from "next/link";
 
 type Props = {
     src: string;
-    linkedin: string;
-    alt?: string;
+    linkedin?: string;
+    alt: string;
     width?: number;
     height?: number;
-    role?: string;
+    role: string;
 };
 
 const ImageHolder = (props: Props) => {
@@ -34,7 +34,7 @@ const ImageHolder = (props: Props) => {
                 <h2 className="text-lg font-bold">{props.alt}</h2>
                 <h3 className="text-sm">{props.role}</h3>
             </div>
-            <Link className={styles.linkedin} style={{ left: (props.width || 200) / 2 - 25 }} href={props.linkedin} target="_blank">
+           {props.linkedin && <Link className={styles.linkedin} style={{ left: (props.width || 200) / 2 - 25 }} href={props.linkedin} target="_blank">
                 <Image
                     src="/linkedin.svg"
                     width={50}
@@ -42,7 +42,7 @@ const ImageHolder = (props: Props) => {
                     alt="linkedin logo"
                     className={styles.logo}
                 />
-            </Link>
+            </Link>}
         </div>
     );
 };
