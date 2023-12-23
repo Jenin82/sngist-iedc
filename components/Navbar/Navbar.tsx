@@ -101,6 +101,10 @@ const Navbar = () => {
                     </label>
                 </button>
 
+                <button className="flex items-center md:mr-4 ml-1">
+                    <div className="bg-accent text-accent-content px-3 py-2 rounded-lg hover:bg-accent-content hover:text-accent">Join us</div>
+                </button>
+
                 <button className="md:hidden">
                     <div className="drawer">
                         <input

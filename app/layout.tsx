@@ -18,7 +18,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" data-theme="winter">
+        <html lang="en" data-theme="light">
             <body className={inter.className}>
                 <Navbar />
                 <Toaster position="bottom-center" reverseOrder={true} />
