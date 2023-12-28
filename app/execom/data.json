@@ -2,19 +2,19 @@
 	"execom": [
 		{
 			"name": "Jenin Joseph",
-			"designation": "Cheif Executive Officer",
+			"designation": "IEDC LEAD",
 			"image":"https://i.imgur.com/p9X4lvc.jpeg",
 			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
 		},
 		{
 			"name": "Diya",
-			"designation": "Women Lead",
+			"designation": "WOMEN LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
 		},
 		{
 			"name": "Alan K Anil",
-			"designation": "Quality and Operations Lead",
+			"designation": "QUALITY AND OPERATION LEAD",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		},
@@ -107,6 +107,50 @@
 		{
 			"name": "Fareedul Sahla",
 			"designation": "WOMEN ENRTREPREUNERSHIP LEAD",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		}
+	],
+	"firstexecom": [
+		{
+			"name": "EBI VARGHESE ",
+			"designation": "CHIEF EXECUTIVE OFFICER",
+			"image":"https://i.imgur.com/p9X4lvc.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "JINET JOHNSON",
+			"designation": "CHIEF MARKETING OFFICER ",
+			"image":"https://i.imgur.com/p9X4lvc.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "AKHIL SUGATHAN",
+			"designation": "CHIEF FINANCIAL OFFICER",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "ALAN K ANIL",
+			"designation": "CHIEF OPERATING OFFICER",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "JENIN JOSEPH",
+			"designation": "CHIEF CREATIVE  OFFICER",
+			"image":"https://i.imgur.com/p9X4lvc.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jenin-joseph"
+		},
+		{
+			"name": "SAKBEER K K",
+			"designation": "CHIEF COMMUNITY  OFFICER",
+			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
+			"linkedin": "https://www.linkedin.com/in/alan-anil/"
+		},
+		{
+			"name": "ABHAIDEVE P A",
+			"designation": "CHIEF TECHNICAL OFFICER",
 			"image":"https://avatars.githubusercontent.com/u/100459334?v=4",
 			"linkedin": "https://www.linkedin.com/in/alan-anil/"
 		}

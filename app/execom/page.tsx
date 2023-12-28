@@ -49,7 +49,17 @@ const page = () => {
                             </div>
                         </div>
                         <div className="collapse-content">
-                            {/* <p>hello</p> */}
+                        <div className="flex flex-wrap justify-center pt-16 px-6 md:gap-6 lg:gap-8">
+                                {data.firstexecom.map((member) => (
+                                    <ImageHolder
+                                        src={member.image}
+                                        alt={member.name}
+                                        role={member.designation}
+                                        key={member.name}
+                                        linkedin={member.linkedin}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
