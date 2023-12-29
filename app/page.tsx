@@ -58,7 +58,10 @@ export default function Home() {
                     <div className="gridImage">
                         <div className="rowImage forward">
                             {data.marquees1.map((marquee) => (
-                                <div className="boxImage rounded-full">
+                                <div
+                                    className="boxImage rounded-full"
+                                    key={marquee.image}
+                                >
                                     <img
                                         src={marquee.image}
                                         alt={marquee.alt}
@@ -66,7 +69,10 @@ export default function Home() {
                                 </div>
                             ))}
                             {data.marquees1.map((marquee) => (
-                                <div className="boxImage rounded-full">
+                                <div
+                                    className="boxImage rounded-full"
+                                    key={marquee.image}
+                                >
                                     <img
                                         src={marquee.image}
                                         alt={marquee.alt}
@@ -76,7 +82,10 @@ export default function Home() {
                         </div>
                         <div className="rowImage backward">
                             {data.marquees2.map((marquee) => (
-                                <div className="boxImage rounded-full">
+                                <div
+                                    className="boxImage rounded-full"
+                                    key={marquee.image}
+                                >
                                     <img
                                         src={marquee.image}
                                         alt={marquee.alt}
@@ -84,7 +93,10 @@ export default function Home() {
                                 </div>
                             ))}
                             {data.marquees2.map((marquee) => (
-                                <div className="boxImage rounded-full">
+                                <div
+                                    className="boxImage rounded-full"
+                                    key={marquee.image}
+                                >
                                     <img
                                         src={marquee.image}
                                         alt={marquee.alt}
