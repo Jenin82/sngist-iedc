@@ -1,0 +1,38 @@
+{
+	"marquees1": [
+		{
+			"image":"https://i.imgur.com/gC3XixT.jpg",
+			"alt":"Iedc Room Inside"
+		},
+		{
+			"image":"https://i.imgur.com/k1ytlKU.jpg",
+			"alt":"Iedc Room Outside"
+		},
+		{
+			"image":"https://i.imgur.com/ysMDIal.jpg",
+			"alt":"Iedc Room Inside"
+		},
+		{
+			"image":"https://i.imgur.com/BTMbKvV.jpg",
+			"alt":"Iedc Room Inside"
+		}
+	],
+	"marquees2": [
+		{
+			"image":"https://i.imgur.com/TFYBiFk.jpg",
+			"alt":"Iedc Room Inside"
+		},
+		{
+			"image":"https://i.imgur.com/Fzzc9sr.jpg",
+			"alt":"Iedc Room Inside"
+		},
+		{
+			"image":"https://i.imgur.com/L4pVLmY.jpg",
+			"alt":"Iedc Room Inside"
+		},
+		{
+			"image":"https://i.imgur.com/ysMDIal.jpg",
+			"alt":"Iedc Room Inside"
+		}
+	]
+}
