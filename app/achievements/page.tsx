@@ -13,6 +13,8 @@ const page = () => {
                         name={event.name}
                         description={event.description}
                         date={event.date}
+                        image={event.image}
+                        alt={event.alt}
                     />
                 ))}
             </div>
