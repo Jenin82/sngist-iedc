@@ -3,32 +3,44 @@
         {
             "name": "Tech Talk",
             "description": "Engage in discussions about the latest in technology",
-            "date": "2023-12-23"
+            "date": "2023-12-23",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         },
         {
             "name": "Startup Networking",
             "description": "Connect with fellow entrepreneurs and investors",
-            "date": "2023-12-24"
+            "date": "2023-12-24",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         },
         {
             "name": "Programming Bootcamp",
             "description": "Intensive coding practice for all skill levels",
-            "date": "2023-12-25"
+            "date": "2023-12-25",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         },
         {
             "name": "Data Analytics Workshop",
             "description": "Learn the essentials of data analytics",
-            "date": "2023-12-26"
+            "date": "2023-12-26",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         },
         {
             "name": "UI/UX Design Forum",
             "description": "Explore the principles of user interface and experience design",
-            "date": "2023-12-27"
+            "date": "2023-12-27",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         },
         {
             "name": "Mobile App Development Summit",
             "description": "Discover the latest trends in mobile app development",
-            "date": "2023-12-28"
+            "date": "2023-12-28",
+            "image": "http://i.imgur.com/ZM3Mobu.jpeg",
+            "alt": "Tech Talk"
         }
     ]
 }
