@@ -3,7 +3,7 @@
         {
             "name": "Tech Conference",
             "description": "Explore the latest in technology",
-            "image": "https://i.imgur.com/ZM3Mobu.jpeg",
+            "image": "https://i.imgur.com/ATXCc4H.jpg",
             "isOver": false,
             "link": "https://i.imgur.com/",
             "isNew": true
@@ -11,7 +11,7 @@
         {
             "name": "Startup Pitch",
             "description": "Showcasing innovative startup ideas",
-            "image": "https://i.ibb.co/xX8YycT/794270.jpg",
+            "image": "https://i.imgur.com/ATXCc4H.jpg",
             "isOver": false,
             "link": "https://i.ibb.co/xX8YycT/794270.jpg",
             "isNew": false
