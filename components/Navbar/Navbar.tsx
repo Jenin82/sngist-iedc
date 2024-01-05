@@ -88,7 +88,7 @@ const Navbar = () => {
               </svg>
             </label>
           </button>
-          <div className="hidden md:flex">
+          <div className="lg:flex md:hidden">
           <button className="btn btn-ghost btn-circle">
           <Link href="https://www.instagram.com/iedc_sngist/" target="_blank">
                         <svg
@@ -131,7 +131,7 @@ const Navbar = () => {
           </div>
           <button className="flex items-center md:mr-4 ml-1">
             <div className="bg-accent text-accent-content px-3 py-2 rounded-lg hover:bg-accent-content hover:text-accent">
-              Join us
+              Join
             </div>
           </button>
 
