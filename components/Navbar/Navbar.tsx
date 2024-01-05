@@ -88,7 +88,7 @@ const Navbar = () => {
               </svg>
             </label>
           </button>
-          <div className="lg:flex md:hidden">
+          <div className="hidden lg:flex md:hidden">
           <button className="btn btn-ghost btn-circle">
           <Link href="https://www.instagram.com/iedc_sngist/" target="_blank">
                         <svg
