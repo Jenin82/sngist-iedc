@@ -1,19 +1,18 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ImageHolder from "@/components/ImageHolder/ImageHolder";
 import { MdOutlineDateRange } from "react-icons/md";
 import { getExecomData } from "./services/execomApis";
 import toast from "react-hot-toast";
 
 const page = () => {
-    const [data, setData] = React.useState<Execom[]>([]);
+    const [data, setData] = useState<Execom[]>([]);
     const handleFetchDetails = async () => {
 		try {
 			const response = await getExecomData();
             if (response) {
 				setData(response);
-				console.log(response);
             }
         } catch (error) {
 			toast.error("Something went wrong, failed to load data");
@@ -51,7 +50,7 @@ const page = () => {
                     ))}
                 <div>
                     {yearsFromHighestToLowest.map((year) => (
-                        <div className="collapse collapse-arrow bg-base-200 mb-4">
+                        <div className="collapse collapse-arrow bg-base-200 mb-4" key={year}>
                             <input type="radio" name="my-accordion-2" />
                             <div className="collapse-title text-xl font-medium">
                                 <div className="flex items-center gap-2">
