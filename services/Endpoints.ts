@@ -1,4 +1,5 @@
 export const iedcRoutes = {
 	execom: "/execom",
-	governance: "/governance"
+	governance: "/governance",
+	achievements: "/achievements"
 }
