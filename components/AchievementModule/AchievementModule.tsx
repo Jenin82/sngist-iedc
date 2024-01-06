@@ -5,8 +5,7 @@ type Props = {
   name: string;
   description: string;
   date: string;
-  image: string;
-  alt: string;
+  image: string;  
 };
 
 const AchievementModule = (props: Props) => {
@@ -15,7 +14,7 @@ const AchievementModule = (props: Props) => {
       <figure className="px-10 pt-10">
         <img
           src={props.image}
-          alt={props.alt}
+          alt={props.name}
           className="rounded-xl"
         />
       </figure>
