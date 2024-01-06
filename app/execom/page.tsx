@@ -6,7 +6,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { getExecomData } from "./services/execomApis";
 import toast from "react-hot-toast";
 
-const page = () => {
+const Page = () => {
     const [data, setData] = useState<Execom[]>([]);
     const handleFetchDetails = async () => {
 		try {
@@ -85,4 +85,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
