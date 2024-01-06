@@ -1,3 +1,4 @@
 export const iedcRoutes = {
-	openSheet: "/execom"
+	execom: "/execom",
+	governance: "/governance"
 }
