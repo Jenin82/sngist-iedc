@@ -29,7 +29,7 @@ export default async function Marquee() {
                                     </div>
                                 ))}
                             {data
-                                .filter((marquee) => marquee.order === "2")
+                                .filter((marquee) => marquee.order === "1")
                                 .map((marquee) => (
                                     <div
                                         className="boxImage rounded-full"
@@ -44,7 +44,7 @@ export default async function Marquee() {
                         </div>
                         <div className="rowImage backward">
                             {data
-                                .filter((marquee) => marquee.order === "3")
+                                .filter((marquee) => marquee.order === "2")
                                 .map((marquee) => (
                                     <div
                                         className="boxImage rounded-full"
@@ -57,7 +57,7 @@ export default async function Marquee() {
                                     </div>
                                 ))}
                             {data
-                                .filter((marquee) => marquee.order === "4")
+                                .filter((marquee) => marquee.order === "2")
                                 .map((marquee) => (
                                     <div
                                         className="boxImage rounded-full"

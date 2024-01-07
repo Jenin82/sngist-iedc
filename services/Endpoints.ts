@@ -1,9 +1,11 @@
 import toast from "react-hot-toast";
 
+const TIME = 3600 * 12
+
 // Function to fetch data from the server
 export async function getData(endpoint: string) {
     const res = await fetch(fetchGateway(endpoint), {
-        next: { revalidate: 3600 * 12 },
+        next: { revalidate: TIME },
     });
     if (!res.ok) {
 		toast.error("Failed to fetch data");
