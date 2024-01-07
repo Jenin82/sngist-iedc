@@ -1,20 +1,40 @@
+"use client"
+
 import AchievementModule from "@/components/AchievementModule/AchievementModule";
-import React from "react";
-import data from "./data.json";
+import React, { useEffect, useState } from "react";
+import toast from "react-hot-toast";
+import { getAchievementsData } from "./services/achievementsApi";
 
 const page = () => {
+    
+        const [data, setData] = useState<AchievementsData[]>([]);
+        const handleFetchDetails = async () => {
+            try {
+                const response = await getAchievementsData();
+                if (response) {
+                    setData(response);
+                }
+            } catch (error) {
+                toast.error("Something went wrong, failed to load data");
+            }
+        };
+    
+        useEffect(() => {
+            handleFetchDetails();
+        }, []);
+    
+
     return (
         <div className="p-20 bg-base-200">
 			<h1 className="text-4xl font-bold text-center p-5">Achievements</h1>
             <div className="flex flex-wrap gap-10 justify-center mt-5">
-                {data.events.map((event) => (
+                {data.map((data) => (
                     <AchievementModule
-                        key={event.name}
-                        name={event.name}
-                        description={event.description}
-                        date={event.date}
-                        image={event.image}
-                        alt={event.alt}
+                        key={data.name}
+                        name={data.name}
+                        description={data.description}
+                        date={data.date}
+                        image={data.image}
                     />
                 ))}
             </div>
