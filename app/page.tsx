@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "./data.json";
+import Marquee from "@/components/Marquee/Marquee";
 
 export default function Home() {
     return (
@@ -53,60 +53,7 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-            <div className="imageBody">
-                <div id="grid-container-image">
-                    <div className="gridImage">
-                        <div className="rowImage forward">
-                            {data.marquees1.map((marquee) => (
-                                <div
-                                    className="boxImage rounded-full"
-                                    key={marquee.image}
-                                >
-                                    <img
-                                        src={marquee.image}
-                                        alt={marquee.alt}
-                                    />
-                                </div>
-                            ))}
-                            {data.marquees1.map((marquee) => (
-                                <div
-                                    className="boxImage rounded-full"
-                                    key={marquee.image}
-                                >
-                                    <img
-                                        src={marquee.image}
-                                        alt={marquee.alt}
-                                    />
-                                </div>
-                            ))}
-                        </div>
-                        <div className="rowImage backward">
-                            {data.marquees2.map((marquee) => (
-                                <div
-                                    className="boxImage rounded-full"
-                                    key={marquee.image}
-                                >
-                                    <img
-                                        src={marquee.image}
-                                        alt={marquee.alt}
-                                    />
-                                </div>
-                            ))}
-                            {data.marquees2.map((marquee) => (
-                                <div
-                                    className="boxImage rounded-full"
-                                    key={marquee.image}
-                                >
-                                    <img
-                                        src={marquee.image}
-                                        alt={marquee.alt}
-                                    />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Marquee/>
         </>
     );
 }

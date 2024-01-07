@@ -1,0 +1,82 @@
+:root {
+    --noItems: 4;
+    --itemsWidth: 400px;
+    --gap: 10px;
+    --marqueeSpeed: 30s;
+}
+
+.imageBody {
+    margin: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#grid-container-image {
+    width: calc(calc(var(--noItems) * calc(var(--itemsWidth) + var(--gap))));
+    /* border: var(--gap) solid var(--containerBG); */
+    overflow: hidden;
+    /* background: var(--containerBG); */
+    border-radius: var(--gap);
+}
+
+.gridImage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: var(--gap);
+    width: 200%; /* ❗️as having 2 sets of items per row❗️*/
+}
+
+.rowImage {
+    display: flex;
+    overflow: hidden;
+}
+
+.boxImage {
+    width: var(--itemsWidth);
+    height: 240px;
+    margin-right: var(--gap);
+    border-radius: var(--gap);
+    overflow: hidden;
+}
+.boxImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.forward {
+    animation: forward-marquee var(--marqueeSpeed) linear infinite;
+}
+
+.forward:hover {
+    animation-play-state: paused;
+}
+
+.backward {
+    animation: backward-marquee var(--marqueeSpeed) linear infinite;
+}
+
+.backward:hover {
+    animation-play-state: paused;
+}
+
+@keyframes forward-marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes backward-marquee {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

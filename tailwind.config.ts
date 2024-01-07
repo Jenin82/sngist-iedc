@@ -13,6 +13,20 @@ const config: Config = {
                 "gradient-conic":
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
             },
+            // animation: {
+            //     marqueeForward: "marqueeForward 25s linear infinite",
+            //     marqueeBackward: "marqueeBackward 25s linear infinite",
+            // },
+            // keyframes: {
+            //     marqueeForward: {
+            //         "0%": { transform: "translateX(0%)" },
+            //         "100%": { transform: "translateX(-50%)" },
+            //     },
+            //     marqueeBackward: {
+            //         "0%": { transform: "translateX(-50%)" },
+            //         "100%": { transform: "translateX(0%)" },
+            //     },
+            // },
         },
     },
     plugins: [require("daisyui")],
