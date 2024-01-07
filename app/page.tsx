@@ -4,7 +4,7 @@ import data from "./data.json";
 export default function Home() {
     return (
         <>
-            <main className="hero min-h-screen overflow-x-hidden py-20">
+            <main className="hero min-h-screen overflow-x-hidden py-20 md:mt-10 bg-[url('/bg.svg')]">
                 <div className="hero-content flex-col md:flex-row-reverse gap-10 md:gap-2 lg:gap-0 px-6 md:px-10 lg:px-0">
                     <div>
                         <div className="text-3xl md:text-6xl lg:text-7xl font-extrabold  text-center">

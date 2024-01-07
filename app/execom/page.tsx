@@ -14,7 +14,7 @@ export default async function Page() {
     );
 
     return (
-        <div className="mt-20 md:px-[2rem] lg:px-48 pb-20">
+        <div className="mt-[3.8rem] md:px-[2rem] lg:px-48 pb-20">
             <p className="font-bold text-4xl flex justify-center pt-5 pb-4 mb-20 ">
                 EXECOM
             </p>
@@ -32,11 +32,14 @@ export default async function Page() {
                     ))}
                 <div>
                     {yearsFromHighestToLowest.map((year) => (
-                        <div className="collapse collapse-arrow bg-base-200 mb-4" key={year}>
+                        <div
+                            className="collapse collapse-arrow bg-base-200 mb-4"
+                            key={year}
+                        >
                             <input type="radio" name="my-accordion-2" />
                             <div className="collapse-title text-xl font-medium">
                                 <div className="flex items-center gap-2">
-                                    <MdOutlineDateRange /> {year -1 }-{year}
+                                    <MdOutlineDateRange /> {year - 1}-{year}
                                 </div>
                             </div>
                             <div className="collapse-content ">
@@ -44,8 +47,7 @@ export default async function Page() {
                                     {data
                                         .filter(
                                             (member) =>
-                                                member.year ===
-                                                String(year)
+                                                member.year === String(year)
                                         )
                                         .map((member) => (
                                             <ImageHolder
@@ -60,7 +62,6 @@ export default async function Page() {
                             </div>
                         </div>
                     ))}
-                    
                 </div>
             </div>
         </div>
