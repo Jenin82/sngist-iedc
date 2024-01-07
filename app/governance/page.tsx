@@ -28,31 +28,36 @@ const Page = () => {
                 GOVERNING BODY
             </h1>
             <div className="mt-24 px-10 items-center flex flex-col">
-                <div className="md:mb-12">
-                    {data
-                        .filter((data) => data.designation === "PRINCIPAL")
-                        .map((data) => (
-                            <ImageHolder
-                                key={data.image}
-                                src={data.image}
-                                alt={data.name}
-                                role={data.designation}
-                            />
-                        ))}
+                <div className="flex justify-center items-baseline flex-wrap md:flex-row md:mb-20 gap-32 bg-primary h-[20rem]">
+                    <div>
+                        {data
+                            .filter((data) => data.designation === "PRINCIPAL")
+                            .map((data) => (
+                                <ImageHolder
+                                    key={data.image}
+                                    src={data.image}
+                                    alt={data.name}
+                                    role={data.designation}
+                                />
+                            ))}
+                    </div>
+                    <div className="flex justify-center gap-5">
+                        {data
+                            .filter(
+                                (data) => data.designation === "NODAL OFFICER"
+                            )
+                            .map((data) => (
+                                <ImageHolder
+                                    key={data.image}
+                                    src={data.image}
+                                    alt={data.name}
+                                    role={data.designation}
+                                />
+                            ))}
+                    </div>
                 </div>
-                <div className="flex justify-center flex-wrap md:flex-row md:mb-20 gap-10 mt-20">
-                    {data
-                        .filter((data) => data.designation === "NODAL OFFICER")
-                        .map((data) => (
-                            <ImageHolder
-                                key={data.image}
-                                src={data.image}
-                                alt={data.name}
-                                role={data.designation}
-                            />
-                        ))}
-                </div>
-                <div className="flex justify-center flex-wrap gap-10 mt-20 md:flex-row">
+
+                <div className="flex justify-center flex-wrap gap-10 mt-4 md:flex-row">
                     {data
                         .filter(
                             (data) => data.designation === "FACULTY COORDINATOR"
