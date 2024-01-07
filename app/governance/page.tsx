@@ -1,27 +1,10 @@
-"use client";
-
 import ImageHolder from "@/components/ImageHolder/ImageHolder";
 import React, { useEffect, useState } from "react";
-import toast from "react-hot-toast";
-import { getGovernanceData } from "./services/governanceApi";
+import { getData, iedcRoutes } from "@/services/Endpoints";
 
-const Page = () => {
-    const [data, setData] = useState<GovernanceData[]>([]);
-    const handleFetchDetails = async () => {
-        try {
-            const response = await getGovernanceData();
-            if (response) {
-                setData(response);
-            }
-        } catch (error) {
-            toast.error("Something went wrong, failed to load data");
-        }
-    };
-
-    useEffect(() => {
-        handleFetchDetails();
-    }, []);
-
+export default async function Page() {
+    const data:GovernanceData[] = await getData(iedcRoutes.governance);
+    
     return (
         <div className="p-16 lg:px-36 md:px-10">
             <h1 className="text-4xl font-bold text-center pt-8">
@@ -71,4 +54,3 @@ const Page = () => {
     );
 };
 
-export default Page;
