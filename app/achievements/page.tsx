@@ -1,8 +1,8 @@
 import AchievementModule from "@/components/AchievementModule/AchievementModule";
-import { getData } from "./services/achievementsApi";
+import { getData, iedcRoutes } from "@/services/Endpoints";
 
 export default async function Page() {
-    const data:AchievementsData[] = await getData();
+    const data:AchievementsData[] = await getData(iedcRoutes.achievements);
     return (
         <div className="p-20 bg-base-200">
             <h1 className="text-4xl font-bold text-center p-5">Achievements</h1>

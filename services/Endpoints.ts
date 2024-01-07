@@ -1,7 +1,20 @@
+import toast from "react-hot-toast";
+
+// Function to fetch data from the server
+export async function getData(endpoint: string) {
+    const res = await fetch(fetchGateway(endpoint), {
+        next: { revalidate: 3600 * 12 },
+    });
+    if (!res.ok) {
+		toast.error("Failed to fetch data");
+        throw new Error("Failed to fetch data");
+    }
+    return res.json();
+}
+
 const baseURL =
     "https://opensheet.elk.sh/1OyCtTyVdYIdm5FqTugfzbOyxQLb2htvjfd9ja42cNoI";
-
-export const fetchGateway = (endpoint: string) => {
+const fetchGateway = (endpoint: string) => {
     return baseURL + endpoint;
 };
 

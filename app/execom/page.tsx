@@ -1,28 +1,10 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
 import ImageHolder from "@/components/ImageHolder/ImageHolder";
 import { MdOutlineDateRange } from "react-icons/md";
-import { getExecomData } from "./services/execomApis";
-import toast from "react-hot-toast";
+import { getData, iedcRoutes } from "@/services/Endpoints";
 
-const Page = () => {
-    const [data, setData] = useState<Execom[]>([]);
-    const handleFetchDetails = async () => {
-		try {
-			const response = await getExecomData();
-            if (response) {
-				setData(response);
-            }
-        } catch (error) {
-			toast.error("Something went wrong, failed to load data");
-        }
-    };
-	
-    useEffect(() => {
-		handleFetchDetails();
-    }, []);
-	
+export default async function Page() {
+    const data: Execom[] = await getData(iedcRoutes.execom);
+
 	const years = data.map((execom) => parseInt(execom.year, 10));
 	const highestYear = Math.max(...years);
     const lowestYear = Math.min(...years);
@@ -84,5 +66,3 @@ const Page = () => {
         </div>
     );
 };
-
-export default Page;
