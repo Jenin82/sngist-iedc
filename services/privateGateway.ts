@@ -7,3 +7,4 @@ export const privateGateway = axios.create({
         "Content-Type": "application/json",
     },
 });
+

@@ -1,12 +1,14 @@
-import { iedcRoutes } from "@/services/Endpoints";
-import { privateGateway } from "@/services/privateGateway";
+import { fetchGateway, iedcRoutes } from "@/services/Endpoints";
+import toast from "react-hot-toast";
 
-export const getAchievementsData = async () => {
-    try {
-        const response = await privateGateway.get(iedcRoutes.achievements);
-        const data: AchievementsData[] = response.data;
-        return data;
-    } catch (error) {
-        throw error;
+// Function to fetch data from the server
+export async function getData() {
+    const res = await fetch(fetchGateway(iedcRoutes.achievements), {
+        next: { revalidate: 3600 * 12 },
+    });
+    if (!res.ok) {
+		toast.error("Failed to fetch data");
+        throw new Error("Failed to fetch data");
     }
-};
+    return res.json();
+}
