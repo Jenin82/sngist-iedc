@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./ImageHolder.module.css";
 import Link from "next/link";
+import defaultImage from "../../public/default.svg";
 
 type Props = {
     src: string;
@@ -23,7 +24,7 @@ const ImageHolder = (props: Props) => {
                 }}
             >
                 <Image
-                    src={props.src}
+                    src={props.src? props.src:defaultImage}
                     width={props.width || 200}
                     height={props.height || 200}
                     alt={props.alt || "profile"}
