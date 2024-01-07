@@ -1,33 +1,38 @@
 import React from "react";
-import { MdDateRange } from "react-icons/md";
-import { MdFileDownload } from "react-icons/md";
+import { MdDateRange, MdOutlineViewInAr } from "react-icons/md";
 
 type Props = {
-  date: string;
-  image: string;
-  link: string;
+    date: string;
+    image: string;
+    link: string;
 };
 
 const Newscard = (props: Props) => {
-  return (
-    <div className="card w-96 bg-base-100 shadow-xl">
-      <figure className="px-10 pt-10">
-        <img
-          src={props.image}
-          alt={props.date}
-          className="rounded-xl"
-        />
-      </figure>
-      <div className="card-body text-center">
-        <div className="card-actions w-full pb-5 justify-center flex items-center font-bold">
-        <MdDateRange />{props.date}
+    return (
+        <div className="card w-96 bg-base-100 shadow-xl mt-5">
+            <figure className="overflow-hidden">
+                <img
+                    src={props.image}
+                    alt={props.date}
+                    className="hover:scale-105 transition duration-450"
+                />
+            </figure>
+            <div className="card-body text-center p-4">
+                <div className="card-actions text-lg w-full justify-center flex items-center">
+                    <MdDateRange />
+                    {props.date}
+                </div>
+                <div className="card-actions justify-center">
+                    <a href={props.link} target="_blank">
+                        <button className="bg-primary flex items-center justify-center gap-2 py-2 px-4 hover:bg-secondary rounded-md text-primary-content">
+                            <MdOutlineViewInAr />
+                            View
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div className="card-actions justify-end">
-          <a href={props.link} target="_blank"><button className="btn btn-primary btn-sm "><MdFileDownload />Download</button></a>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Newscard;

@@ -23,4 +23,5 @@ export const iedcRoutes = {
     governance: "/governance",
     achievements: "/achievements",
 	marquee: "/marquee",
+	newsletters: "/newsletters",
 };
