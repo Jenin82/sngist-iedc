@@ -5,8 +5,7 @@ import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { getAchievementsData } from "./services/achievementsApi";
 
-const page = () => {
-    
+const Page = () => {
         const [data, setData] = useState<AchievementsData[]>([]);
         const handleFetchDetails = async () => {
             try {
@@ -30,8 +29,8 @@ const page = () => {
             <div className="flex flex-wrap gap-10 justify-center mt-5">
                 {data.map((data) => (
                     <AchievementModule
-                        key={data.name}
-                        name={data.name}
+                        key={data.title}
+                        name={data.title}
                         description={data.description}
                         date={data.date}
                         image={data.image}
@@ -42,4 +41,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
