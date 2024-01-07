@@ -22,4 +22,5 @@ export const iedcRoutes = {
     execom: "/execom",
     governance: "/governance",
     achievements: "/achievements",
+	marquee: "/marquee",
 };
