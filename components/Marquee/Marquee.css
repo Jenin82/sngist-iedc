@@ -1,8 +1,8 @@
 :root {
-    --noItems: 4;
-    --itemsWidth: 400px;
+    --noItems: 8;
+    --itemsWidth: 600px;
     --gap: 10px;
-    --marqueeSpeed: 30s;
+    --marqueeSpeed: 80s;
 }
 
 .imageBody {
@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: var(--gap);
-    width: 200%; /* ❗️as having 2 sets of items per row❗️*/
+    width: 500%; /* ❗️as having 2 sets of items per row❗️*/
 }
 
 .rowImage {
