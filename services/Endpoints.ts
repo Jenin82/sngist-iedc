@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-const TIME = 3600 * 12
+const TIME = 2
 
 // Function to fetch data from the server
 export async function getData(endpoint: string) {
@@ -26,4 +26,5 @@ export const iedcRoutes = {
     achievements: "/achievements",
 	marquee: "/marquee",
 	newsletters: "/newsletters",
+    events: "/events",
 };
