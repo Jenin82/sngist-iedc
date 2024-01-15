@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { MdDateRange, MdOutlineViewInAr } from "react-icons/md";
 
@@ -11,10 +12,13 @@ const Newscard = (props: Props) => {
     return (
         <div className="card w-96 bg-base-100 shadow-xl mt-5">
             <figure className="overflow-hidden">
-                <img
+                <Image
                     src={props.image}
                     alt={props.date}
-                    className="hover:scale-105 transition duration-450"
+					width={400}
+					height={300}
+					objectFit="cover"
+                    className="hover:scale-105 h-[220px] transition duration-450"
                 />
             </figure>
             <div className="card-body text-center p-4">
