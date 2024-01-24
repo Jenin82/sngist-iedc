@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-const TIME = 3600 * 60 * 12
+const TIME = 5 
 
 // Function to fetch data from the server
 export async function getData(endpoint: string) {
