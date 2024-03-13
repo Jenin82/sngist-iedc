@@ -5,5 +5,5 @@ interface EventsData {
     date: string;
     isNew: string;
     link: string;
-    isOver: boolean;
+    isOver: str;
 }
