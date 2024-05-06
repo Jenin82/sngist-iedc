@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "SNGIST IEDC",
     description: "Website for IEDC at SNGIST Group of Institutions",
+    keywords: "iedc, sngist iedc, iedc sngist, student community, sree narayana guru institute of science and technology, sngist group of institutions"
 };
 
 export default function RootLayout({
